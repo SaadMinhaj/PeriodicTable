@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  width: 98vw;
+  height: 91vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 9, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-weight: bold;
+}
+h1 {
+  border: transparent;
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  margin-left: 41px;
+  font-weight: bolder;
+  background-color: transparent;
+  text-decoration: solid;
+  letter-spacing: 30px;
+  transition: 0.3s;
+}
+h1:hover {
+  color: transparent;
+  background: transparent;
+}
+.periodic {
+  width: 55vw;
+  border-radius: 10px;
+}
+table {
+  justify-content: center;
+  align-items: center;
+}
+td {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+td:hover {
+  background-color: transparent;
+  color: black;
+}
+.periodic {
+  margin-left: 288px;
+}
+td {
+  padding: 7px;
+}
+.feroze {
+  background-color: #2a9f91;
+  color: black;
+}
+.light-grey {
+  background-color: #acbcad;
+  color: black;
+}
+.grey {
+  background-color: #8b8894;
+  color: black;
+}
+.lightblue {
+  background-color: #5094be;
+  color: black;
+}
+.purple {
+  color: black;
+  background: #7f6091;
+}
+.light-purple {
+  background-color: #b8c8e4;
+  color: black;
+}
+.orange {
+  background-color: #ea6e51;
+  color: black;
+}
+.light-orange {
+  background-color: #f7961d;
+  color: black;
+}
+.light-brown {
+  background-color: #cab9a9;
+  color: black;
+}
+.brown {
+  background-color: #a49134;
+  color: black;
+}
+.bg-none {
+  border-style: none;
+}
+.bg-none:hover {
+  color: transparent;
+  background-color: transparent;
+}
